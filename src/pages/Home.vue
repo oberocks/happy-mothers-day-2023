@@ -33,6 +33,10 @@
 <template>
 
     <div class="text-center px-6 pt-20">
+
+        <div class="max-w-2xl mx-auto text-center text-3xl">
+            Happy Mother's Day!
+        </div>
         
         <div class="max-w-2xl grid grid-cols-5 items-center gap-8 px-8 pb-10 mx-auto">
 
