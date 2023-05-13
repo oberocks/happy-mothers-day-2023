@@ -10,6 +10,7 @@
     "test": "vitest --dom",
     "coverage": "vitest run --dom --coverage",
     "bench": "vitest bench",
+    "changelog": "auto-changelog --package --unreleased --backfill-limit 20",
     "bump:patch": "npm version patch && npm run build && npm run changelog",
     "bump:minor": "npm version minor && npm run build && npm run changelog",
     "bump:major": "npm version major && npm run build && npm run changelog"
