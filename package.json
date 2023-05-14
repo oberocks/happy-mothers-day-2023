@@ -1,7 +1,7 @@
 {
   "name": "happy-mothers-day-2023",
   "private": true,
-  "version": "0.1.5",
+  "version": "0.2.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -43,12 +43,14 @@
     "prismjs": "^1.29.0",
     "tailwind-scrollbar": "^3.0.1",
     "tailwindcss": "^3.3.2",
+    "tsparticles": "^2.9.3",
     "typescript": "^5.0.2",
     "vite": "^4.3.2",
     "vite-plugin-prismjs": "^0.0.8",
     "vitest": "^0.31.0",
     "vue-router": "^4.2.0",
-    "vue-tsc": "^1.4.2"
+    "vue-tsc": "^1.4.2",
+    "vue3-particles": "^2.9.3"
   },
   "description": "A repository for a happy mother's day project for an awesome mom",
   "main": "index.js",
@@ -57,7 +59,7 @@
     "url": "git+https://github.com/oberocks/happy-mothers-day-2023.git"
   },
   "author": "Matt McT",
-  "license": "MIT",
+  "license": "CC BY-NC-SA",
   "bugs": {
     "url": "https://github.com/oberocks/happy-mothers-day-2023/issues"
   },
