@@ -11,8 +11,9 @@
 
     import type { ValidColorModes } from '@obewds/vueventus'
 
-    import { loadFull } from 'tsparticles'
+    // import { loadFull } from 'tsparticles'
 
+    /*
     const particlesInit = async (engine:any) => {
         await loadFull(engine);
     };
@@ -20,9 +21,11 @@
     const particlesLoaded = async (container:any) => {
         console.log("Particles container loaded", container);
     };
+    */
 
     const colorMode = localStorage && localStorage.getItem('colorMode') ? localStorage.getItem('colorMode') as ValidColorModes : 'light' as ValidColorModes
 
+    /*
     const particleOptions = {
         // background: {
         //     color: {
@@ -100,6 +103,7 @@
         },
         detectRetina: true
     }
+    */
 
 </script>
 
@@ -116,12 +120,12 @@
                 url="http://foo.bar/particles.json"
             />-->
 
-            <Particles
+            <!--<Particles
                 id="ts-particles"
                 :particlesInit="particlesInit"
                 :particlesLoaded="particlesLoaded"
                 :options="particleOptions"
-            />
+            />-->
 
             <router-view v-slot="{ Component, route }">
                 <transition name="page" mode="out-in">
