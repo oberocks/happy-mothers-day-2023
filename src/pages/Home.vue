@@ -102,31 +102,31 @@
             <li>Do mother's make</li>
             <li>The world go around?</li>
             <li>When one picks you up,</li>
-            <li>After you've fallen down?</li>
+            <li class="pb-3">After you've fallen down?</li>
             <li>Or maybe when one</li>
             <li>Sees a terrible day,</li>
             <li>And then makes some food</li>
-            <li>That can wash it away?</li>
+            <li class="pb-3">That can wash it away?</li>
             <li>And what about sick times,</li>
             <li>With snot gobs and goop?</li>
             <li>It's mother's that always</li>
-            <li>Know just what to do!</li>
+            <li class="pb-3">Know just what to do!</li>
             <li>From bedtime stories</li>
             <li>To moments of truth,</li>
             <li>Mom's persevere,</li>
-            <li>And they do it for you.</li>
+            <li class="pb-3">And they do it for you.</li>
             <li>So once every year,</li>
             <li>We all take a day,</li>
             <li>To tell our mom's thank you</li>
-            <li>In meaningful ways.</li>
+            <li class="pb-3">In meaningful ways.</li>
             <li>Because mom's are precious.</li>
             <li>And special. And rare.</li>
             <li>They deserve our respect,</li>
-            <li>And our love and our care.</li>
+            <li class="pb-3">And our love and our care.</li>
             <li>So thank you dear mamas,</li>
             <li>For all that you do,</li>
             <li>You brought us all here,</li>
-            <li>And you teach us stuff, too!</li>
+            <li class="pb-3">And you teach us stuff, too!</li>
             <li>So no matter what happens,</li>
             <li>Remember this truth:</li>
             <li>There is no hero like</li>

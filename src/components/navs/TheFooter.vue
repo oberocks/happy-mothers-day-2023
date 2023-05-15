@@ -3,6 +3,7 @@
 <script lang="ts">
 
     import { defineComponent } from 'vue'
+    import pkg from '../../../package.json'
     import VvAnchor from '../vv/anchors/VvAnchor.vue'
     import VvEl from '../vv/elements/VvEl.vue'
     import VvFa from '../vv/elements/VvFa.vue'
@@ -20,6 +21,7 @@
             const year = new Date().getFullYear()
 
             return {
+                pkg,
                 year,
             }
 
@@ -56,7 +58,7 @@
                 </a>
             </div>
             <div class="opacity-50 text-xs">
-                Published {{ year }}
+                Published {{ year }} | v{{ pkg.version }}
             </div>
         </div>
     

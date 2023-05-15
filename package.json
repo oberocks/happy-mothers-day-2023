@@ -1,7 +1,7 @@
 {
   "name": "happy-mothers-day-2023",
   "private": true,
-  "version": "0.2.1",
+  "version": "0.2.3",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -41,11 +41,11 @@
     "postcss": "^8.4.23",
     "prism-theme-vars": "^0.2.4",
     "prismjs": "^1.29.0",
-    "tailwind-scrollbar": "^3.0.1",
+    "tailwind-scrollbar": "^3.0.4",
     "tailwindcss": "^3.3.2",
     "tsparticles": "^2.9.3",
     "typescript": "^5.0.2",
-    "vite": "^4.3.2",
+    "vite": "^4.3.6",
     "vite-plugin-prismjs": "^0.0.8",
     "vitest": "^0.31.0",
     "vue-router": "^4.2.0",
@@ -59,7 +59,7 @@
     "url": "git+https://github.com/oberocks/happy-mothers-day-2023.git"
   },
   "author": "Matt McT",
-  "license": "CC BY-NC-SA",
+  "license": "CC-BY-NC-SA-4.0",
   "bugs": {
     "url": "https://github.com/oberocks/happy-mothers-day-2023/issues"
   },
