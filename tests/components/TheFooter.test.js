@@ -3,6 +3,8 @@
 import { mount } from '@vue/test-utils'
 import TheFooter from '../../src/components/TheFooter.vue'
 
+import '../../src/fontAwesome'
+
 
 test('TheFooter.vue component imports successfully', async () => {
     

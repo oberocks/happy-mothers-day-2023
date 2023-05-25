@@ -1,7 +1,7 @@
 {
   "name": "happy-mothers-day-2023",
   "private": true,
-  "version": "0.3.0",
+  "version": "0.3.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -43,14 +43,12 @@
     "prismjs": "^1.29.0",
     "tailwind-scrollbar": "^3.0.4",
     "tailwindcss": "^3.3.2",
-    "tsparticles": "^2.9.3",
     "typescript": "^5.0.2",
     "vite": "^4.3.8",
     "vite-plugin-prismjs": "^0.0.8",
     "vitest": "^0.31.1",
     "vue-router": "^4.2.1",
-    "vue-tsc": "^1.4.2",
-    "vue3-particles": "^2.9.3"
+    "vue-tsc": "^1.4.2"
   },
   "description": "A repository for a happy mother's day project for an awesome mom",
   "main": "index.js",
