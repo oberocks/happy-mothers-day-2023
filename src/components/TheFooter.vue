@@ -1,12 +1,12 @@
-<!-- ./src/components/navs/TheFooter.vue -->
+<!-- ./src/components/TheFooter.vue -->
 
 <script lang="ts">
 
     import { defineComponent } from 'vue'
-    import pkg from '../../../package.json'
-    import VvAnchor from '../vv/anchors/VvAnchor.vue'
-    import VvEl from '../vv/elements/VvEl.vue'
-    import VvFa from '../vv/elements/VvFa.vue'
+    import pkg from '../../package.json'
+    import VvAnchor from './vv/anchors/VvAnchor.vue'
+    import VvEl from './vv/elements/VvEl.vue'
+    import VvFa from './vv/elements/VvFa.vue'
 
     export default defineComponent({
 
@@ -29,13 +29,11 @@
 
     })
 
-    
-
 </script>
 
 <template>
 
-    <footer class="w-full pb-6 pt-24">
+    <footer class="w-full pb-6 pt-12">
     
         <div class="text-center">
             <div class="opacity-75 text-sm">
