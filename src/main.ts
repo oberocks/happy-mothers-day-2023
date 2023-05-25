@@ -10,8 +10,6 @@ import './gsap'
 import './fontAwesome'
 import './css/prism-theme-vars.css'
 
-import Particles from 'vue3-particles'
-
 
 const app = createApp(App)
 const head = createHead()
@@ -20,6 +18,5 @@ app.provide('vv', appVv)
 
 app.use(router)
 app.use(head)
-app.use(Particles)
 
 app.mount('#app')
