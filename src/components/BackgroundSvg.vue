@@ -9,8 +9,8 @@
         props: {
             fillClasses: {
                 type: String,
-                default: 'fill-[#000000] dark:fill-[#ffffff]',
-                // default: 'fill-[#ca3974] dark:fill-[#ecb0c1]',
+                default: 'fill-[#ca3974] dark:fill-[#ecb0c1]',
+                // default: 'fill-[#000000] dark:fill-[#ffffff]',
             },
         },
 
