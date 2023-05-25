@@ -5,7 +5,7 @@
     // This starter template is using Vue 3 <script setup> SFCs
     // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
     
-    import TheFooter from './components/navs/TheFooter.vue'
+    import BackgroundSvg from './components/BackgroundSvg.vue'
     import VvColorModeButton from './components/vv/buttons/VvColorModeButton.vue'
     import VvScrollUp from './components/vv/buttons/VvScrollUp.vue'
 
@@ -109,9 +109,28 @@
 
 <template>
 
-    <div>
+    <div class="overflow-hidden">
 
-        <main class="min-h-screen w-full text-center px-6 pt-20 bg-pink-200 text-pink-900 dark:bg-pink-500 dark:text-white">
+        <div class="fixed top-0 left-0 flex flex-wrap bg-pink-200 text-pink-900 dark:bg-pink-500 dark:text-white overflow-hidden">
+            <BackgroundSvg class="opacity-25 w-full sm:w-1/2 lg:w-1/4"/>
+            <BackgroundSvg class="opacity-25 w-full sm:w-1/2 lg:w-1/4"/>
+            <BackgroundSvg class="opacity-25 w-full sm:w-1/2 lg:w-1/4"/>
+            <BackgroundSvg class="opacity-25 w-full sm:w-1/2 lg:w-1/4"/>
+            <BackgroundSvg class="opacity-25 w-full sm:w-1/2 lg:w-1/4"/>
+            <BackgroundSvg class="opacity-25 w-full sm:w-1/2 lg:w-1/4"/>
+            <BackgroundSvg class="opacity-25 w-full sm:w-1/2 lg:w-1/4"/>
+            <BackgroundSvg class="opacity-25 w-full sm:w-1/2 lg:w-1/4"/>
+            <BackgroundSvg class="opacity-25 w-full sm:w-1/2 lg:w-1/4"/>
+            <BackgroundSvg class="opacity-25 w-full sm:w-1/2 lg:w-1/4"/>
+            <BackgroundSvg class="opacity-25 w-full sm:w-1/2 lg:w-1/4"/>
+            <BackgroundSvg class="opacity-25 w-full sm:w-1/2 lg:w-1/4"/>
+            <BackgroundSvg class="opacity-25 w-full sm:w-1/2 lg:w-1/4"/>
+            <BackgroundSvg class="opacity-25 w-full sm:w-1/2 lg:w-1/4"/>
+            <BackgroundSvg class="opacity-25 w-full sm:w-1/2 lg:w-1/4"/>
+            <BackgroundSvg class="opacity-25 w-full sm:w-1/2 lg:w-1/4"/>
+        </div>
+
+        <main class="min-h-screen w-full text-center px-6 pt-20">
 
             <!--<Particles
                 id="ts-particles"
@@ -132,8 +151,6 @@
                     <component :is="Component" :key="route.path"/>
                 </transition>
             </router-view>
-
-            <TheFooter/>
 
         </main>
 
