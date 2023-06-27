@@ -18,7 +18,7 @@
                 Happy Mother's Day!
             </div>
 
-            <ul class="text-lg py-6">
+            <ul class="text-lg leading-tight py-6">
 
                 <li>Do mother's make</li>
                 <li>The world go around?</li>
